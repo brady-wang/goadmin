@@ -1,0 +1,376 @@
+2021-01-19T13:41:05.348+0800	[31mERROR[0m	controller/handler.go:31	dial tcp 192.168.33.10:3306: connectex: No connection could be made because the target machine actively refused it.
+github.com/GoAdminGroup/go-admin/modules/logger.Error
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/modules/logger/logger.go:285
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).GlobalDeferHandler
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/plugins/admin/controller/handler.go:31
+runtime.gopanic
+	E:/Go/src/runtime/panic.go:969
+github.com/GoAdminGroup/go-admin/modules/db.CommonQuery
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/modules/db/performer.go:20
+github.com/GoAdminGroup/go-admin/modules/db.(*Mysql).QueryWithConnection
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/modules/db/mysql.go:83
+github.com/GoAdminGroup/go-admin/modules/db.(*Mysql).QueryWith
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/modules/db/mysql.go:115
+github.com/GoAdminGroup/go-admin/modules/db.(*SQL).First
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/modules/db/statement.go:424
+github.com/GoAdminGroup/go-admin/plugins/admin/models.UserModel.FindByUserName
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/plugins/admin/models/user.go:70
+github.com/GoAdminGroup/go-admin/modules/auth.Check
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/modules/auth/auth.go:29
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).Auth
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/plugins/admin/controller/auth.go:51
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/context/context.go:101
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).globalErrorHandler
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/plugins/admin/router.go:106
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/context/context.go:101
+github.com/GoAdminGroup/go-admin/adapter/gin.(*Gin).AddHandler.func1
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/adapter/gin/gin.go:91
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.RecoveryWithWriter.func1
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/recovery.go:83
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/logger.go:241
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:409
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:367
+net/http.serverHandler.ServeHTTP
+	E:/Go/src/net/http/server.go:2843
+net/http.(*conn).serve
+	E:/Go/src/net/http/server.go:1925
+2021-01-19T13:41:06.362+0800	[31mERROR[0m	controller/handler.go:31	dial tcp 192.168.33.10:3306: connectex: No connection could be made because the target machine actively refused it.
+github.com/GoAdminGroup/go-admin/modules/logger.Error
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/modules/logger/logger.go:285
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).GlobalDeferHandler
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/plugins/admin/controller/handler.go:31
+runtime.gopanic
+	E:/Go/src/runtime/panic.go:969
+github.com/GoAdminGroup/go-admin/modules/db.CommonQuery
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/modules/db/performer.go:20
+github.com/GoAdminGroup/go-admin/modules/db.(*Mysql).QueryWithConnection
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/modules/db/mysql.go:83
+github.com/GoAdminGroup/go-admin/modules/db.(*Mysql).QueryWith
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/modules/db/mysql.go:115
+github.com/GoAdminGroup/go-admin/modules/db.(*SQL).First
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/modules/db/statement.go:424
+github.com/GoAdminGroup/go-admin/plugins/admin/models.UserModel.FindByUserName
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/plugins/admin/models/user.go:70
+github.com/GoAdminGroup/go-admin/modules/auth.Check
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/modules/auth/auth.go:29
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).Auth
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/plugins/admin/controller/auth.go:51
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/context/context.go:101
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).globalErrorHandler
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/plugins/admin/router.go:106
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/context/context.go:101
+github.com/GoAdminGroup/go-admin/adapter/gin.(*Gin).AddHandler.func1
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/adapter/gin/gin.go:91
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.RecoveryWithWriter.func1
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/recovery.go:83
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/logger.go:241
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:409
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:367
+net/http.serverHandler.ServeHTTP
+	E:/Go/src/net/http/server.go:2843
+net/http.(*conn).serve
+	E:/Go/src/net/http/server.go:1925
+2021-01-19T13:41:28.987+0800	[31mERROR[0m	controller/handler.go:31	dial tcp 192.168.33.10:3306: connectex: No connection could be made because the target machine actively refused it.
+github.com/GoAdminGroup/go-admin/modules/logger.Error
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/modules/logger/logger.go:285
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).GlobalDeferHandler
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/plugins/admin/controller/handler.go:31
+runtime.gopanic
+	E:/Go/src/runtime/panic.go:969
+github.com/GoAdminGroup/go-admin/modules/db.CommonQuery
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/modules/db/performer.go:20
+github.com/GoAdminGroup/go-admin/modules/db.(*Mysql).QueryWithConnection
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/modules/db/mysql.go:83
+github.com/GoAdminGroup/go-admin/modules/db.(*Mysql).QueryWith
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/modules/db/mysql.go:115
+github.com/GoAdminGroup/go-admin/modules/db.(*SQL).First
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/modules/db/statement.go:424
+github.com/GoAdminGroup/go-admin/plugins/admin/models.UserModel.FindByUserName
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/plugins/admin/models/user.go:70
+github.com/GoAdminGroup/go-admin/modules/auth.Check
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/modules/auth/auth.go:29
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).Auth
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/plugins/admin/controller/auth.go:51
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/context/context.go:101
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).globalErrorHandler
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/plugins/admin/router.go:106
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/context/context.go:101
+github.com/GoAdminGroup/go-admin/adapter/gin.(*Gin).AddHandler.func1
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/adapter/gin/gin.go:91
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.RecoveryWithWriter.func1
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/recovery.go:83
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/logger.go:241
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:409
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:367
+net/http.serverHandler.ServeHTTP
+	E:/Go/src/net/http/server.go:2843
+net/http.(*conn).serve
+	E:/Go/src/net/http/server.go:1925
+2021-01-19T13:41:28.988+0800	[31mERROR[0m	controller/handler.go:31	dial tcp 192.168.33.10:3306: connectex: No connection could be made because the target machine actively refused it.
+github.com/GoAdminGroup/go-admin/modules/logger.Error
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/modules/logger/logger.go:285
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).GlobalDeferHandler
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/plugins/admin/controller/handler.go:31
+runtime.gopanic
+	E:/Go/src/runtime/panic.go:969
+github.com/GoAdminGroup/go-admin/modules/db.CommonQuery
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/modules/db/performer.go:20
+github.com/GoAdminGroup/go-admin/modules/db.(*Mysql).QueryWithConnection
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/modules/db/mysql.go:83
+github.com/GoAdminGroup/go-admin/modules/db.(*Mysql).QueryWith
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/modules/db/mysql.go:115
+github.com/GoAdminGroup/go-admin/modules/db.(*SQL).First
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/modules/db/statement.go:424
+github.com/GoAdminGroup/go-admin/plugins/admin/models.UserModel.FindByUserName
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/plugins/admin/models/user.go:70
+github.com/GoAdminGroup/go-admin/modules/auth.Check
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/modules/auth/auth.go:29
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).Auth
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/plugins/admin/controller/auth.go:51
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/context/context.go:101
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).globalErrorHandler
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/plugins/admin/router.go:106
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/context/context.go:101
+github.com/GoAdminGroup/go-admin/adapter/gin.(*Gin).AddHandler.func1
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/adapter/gin/gin.go:91
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.RecoveryWithWriter.func1
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/recovery.go:83
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/logger.go:241
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:409
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:367
+net/http.serverHandler.ServeHTTP
+	E:/Go/src/net/http/server.go:2843
+net/http.(*conn).serve
+	E:/Go/src/net/http/server.go:1925
+2021-01-19T13:41:28.989+0800	[31mERROR[0m	controller/handler.go:31	dial tcp 192.168.33.10:3306: connectex: No connection could be made because the target machine actively refused it.
+github.com/GoAdminGroup/go-admin/modules/logger.Error
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/modules/logger/logger.go:285
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).GlobalDeferHandler
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/plugins/admin/controller/handler.go:31
+runtime.gopanic
+	E:/Go/src/runtime/panic.go:969
+github.com/GoAdminGroup/go-admin/modules/db.CommonQuery
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/modules/db/performer.go:20
+github.com/GoAdminGroup/go-admin/modules/db.(*Mysql).QueryWithConnection
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/modules/db/mysql.go:83
+github.com/GoAdminGroup/go-admin/modules/db.(*Mysql).QueryWith
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/modules/db/mysql.go:115
+github.com/GoAdminGroup/go-admin/modules/db.(*SQL).First
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/modules/db/statement.go:424
+github.com/GoAdminGroup/go-admin/plugins/admin/models.UserModel.FindByUserName
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/plugins/admin/models/user.go:70
+github.com/GoAdminGroup/go-admin/modules/auth.Check
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/modules/auth/auth.go:29
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).Auth
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/plugins/admin/controller/auth.go:51
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/context/context.go:101
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).globalErrorHandler
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/plugins/admin/router.go:106
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/context/context.go:101
+github.com/GoAdminGroup/go-admin/adapter/gin.(*Gin).AddHandler.func1
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/adapter/gin/gin.go:91
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.RecoveryWithWriter.func1
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/recovery.go:83
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/logger.go:241
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:409
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:367
+net/http.serverHandler.ServeHTTP
+	E:/Go/src/net/http/server.go:2843
+net/http.(*conn).serve
+	E:/Go/src/net/http/server.go:1925
+2021-01-19T13:41:28.989+0800	[31mERROR[0m	controller/handler.go:31	dial tcp 192.168.33.10:3306: connectex: No connection could be made because the target machine actively refused it.
+github.com/GoAdminGroup/go-admin/modules/logger.Error
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/modules/logger/logger.go:285
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).GlobalDeferHandler
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/plugins/admin/controller/handler.go:31
+runtime.gopanic
+	E:/Go/src/runtime/panic.go:969
+github.com/GoAdminGroup/go-admin/modules/db.CommonQuery
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/modules/db/performer.go:20
+github.com/GoAdminGroup/go-admin/modules/db.(*Mysql).QueryWithConnection
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/modules/db/mysql.go:83
+github.com/GoAdminGroup/go-admin/modules/db.(*Mysql).QueryWith
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/modules/db/mysql.go:115
+github.com/GoAdminGroup/go-admin/modules/db.(*SQL).First
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/modules/db/statement.go:424
+github.com/GoAdminGroup/go-admin/plugins/admin/models.UserModel.FindByUserName
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/plugins/admin/models/user.go:70
+github.com/GoAdminGroup/go-admin/modules/auth.Check
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/modules/auth/auth.go:29
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).Auth
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/plugins/admin/controller/auth.go:51
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/context/context.go:101
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).globalErrorHandler
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/plugins/admin/router.go:106
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/context/context.go:101
+github.com/GoAdminGroup/go-admin/adapter/gin.(*Gin).AddHandler.func1
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/adapter/gin/gin.go:91
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.RecoveryWithWriter.func1
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/recovery.go:83
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/logger.go:241
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:409
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:367
+net/http.serverHandler.ServeHTTP
+	E:/Go/src/net/http/server.go:2843
+net/http.(*conn).serve
+	E:/Go/src/net/http/server.go:1925
+2021-01-19T13:41:28.990+0800	[31mERROR[0m	controller/handler.go:31	dial tcp 192.168.33.10:3306: connectex: No connection could be made because the target machine actively refused it.
+github.com/GoAdminGroup/go-admin/modules/logger.Error
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/modules/logger/logger.go:285
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).GlobalDeferHandler
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/plugins/admin/controller/handler.go:31
+runtime.gopanic
+	E:/Go/src/runtime/panic.go:969
+github.com/GoAdminGroup/go-admin/modules/db.CommonQuery
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/modules/db/performer.go:20
+github.com/GoAdminGroup/go-admin/modules/db.(*Mysql).QueryWithConnection
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/modules/db/mysql.go:83
+github.com/GoAdminGroup/go-admin/modules/db.(*Mysql).QueryWith
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/modules/db/mysql.go:115
+github.com/GoAdminGroup/go-admin/modules/db.(*SQL).First
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/modules/db/statement.go:424
+github.com/GoAdminGroup/go-admin/plugins/admin/models.UserModel.FindByUserName
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/plugins/admin/models/user.go:70
+github.com/GoAdminGroup/go-admin/modules/auth.Check
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/modules/auth/auth.go:29
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).Auth
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/plugins/admin/controller/auth.go:51
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/context/context.go:101
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).globalErrorHandler
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/plugins/admin/router.go:106
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/context/context.go:101
+github.com/GoAdminGroup/go-admin/adapter/gin.(*Gin).AddHandler.func1
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/adapter/gin/gin.go:91
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.RecoveryWithWriter.func1
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/recovery.go:83
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/logger.go:241
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:409
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:367
+net/http.serverHandler.ServeHTTP
+	E:/Go/src/net/http/server.go:2843
+net/http.(*conn).serve
+	E:/Go/src/net/http/server.go:1925
+2021-01-19T13:41:29.166+0800	[31mERROR[0m	controller/handler.go:31	dial tcp 192.168.33.10:3306: connectex: No connection could be made because the target machine actively refused it.
+github.com/GoAdminGroup/go-admin/modules/logger.Error
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/modules/logger/logger.go:285
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).GlobalDeferHandler
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/plugins/admin/controller/handler.go:31
+runtime.gopanic
+	E:/Go/src/runtime/panic.go:969
+github.com/GoAdminGroup/go-admin/modules/db.CommonQuery
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/modules/db/performer.go:20
+github.com/GoAdminGroup/go-admin/modules/db.(*Mysql).QueryWithConnection
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/modules/db/mysql.go:83
+github.com/GoAdminGroup/go-admin/modules/db.(*Mysql).QueryWith
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/modules/db/mysql.go:115
+github.com/GoAdminGroup/go-admin/modules/db.(*SQL).First
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/modules/db/statement.go:424
+github.com/GoAdminGroup/go-admin/plugins/admin/models.UserModel.FindByUserName
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/plugins/admin/models/user.go:70
+github.com/GoAdminGroup/go-admin/modules/auth.Check
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/modules/auth/auth.go:29
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).Auth
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/plugins/admin/controller/auth.go:51
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/context/context.go:101
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).globalErrorHandler
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/plugins/admin/router.go:106
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/context/context.go:101
+github.com/GoAdminGroup/go-admin/adapter/gin.(*Gin).AddHandler.func1
+	C:/Users/Administrator/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.18/adapter/gin/gin.go:91
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.RecoveryWithWriter.func1
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/recovery.go:83
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/logger.go:241
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:409
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	C:/Users/Administrator/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:367
+net/http.serverHandler.ServeHTTP
+	E:/Go/src/net/http/server.go:2843
+net/http.(*conn).serve
+	E:/Go/src/net/http/server.go:1925
